@@ -17,3 +17,8 @@ title: Input Groups
     <h4>Always add labels</h4>
     <p>Screen readers will have trouble with your forms if you don't include a label for every input. For these input groups, ensure that any additional label or functionality is conveyed to assistive technologies.</p>
     <p>The exact technique to be used (<code>&lt;label&gt;</code> elements hidden using the <code>.sr-only</code> class, or use of the <code>aria-label</code>, <code>aria-labelledby</code>, <code>aria-describedby</code>, <code>title</code> or <code>placeholder</code> attribute) and what additional information will need to be conveyed will vary depending on the exact type of interface widget you're implementing. The examples in this section provide a few suggested, case-specific approaches.</p>
+    
+    <h2 id="input-groups-basic">Basic example</h2>
+  <p>Place one add-on or button on either side of an input. You may also place one on both sides of an input.</p>
+  <p><strong class="text-danger">We do not support multiple add-ons on a single side.</strong></p>
+  <p><strong class="text-danger">We do not support multiple form-controls in a single input group.</strong></p>

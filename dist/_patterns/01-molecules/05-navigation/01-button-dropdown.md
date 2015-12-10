@@ -8,3 +8,4 @@ title: Button Dropdown
     <h4>Plugin dependency</h4>
     <p>Button dropdowns require the <a href="../javascript/#dropdowns">dropdown plugin</a> to be included in your version of Bootstrap.</p>
   </div>
+  <p>Turn a button into a dropdown toggle with some basic markup changes.</p>

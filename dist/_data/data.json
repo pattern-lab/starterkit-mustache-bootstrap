@@ -61,5 +61,37 @@
 			{ "listText" : "Something else here" },
 			{ "listText" : "Link 4" }
 		]
-	}
+	},
+	"navClass" : "",
+	"nav" : {
+		"navList" : [
+			{ "listText" : "Home" },
+			{ "listText" : "Profile" },
+			{ "listText" : "Link 3" }
+		]
+	},
+	"paginationClass" : "",
+	"pagination" : {
+		"paginationList" : [
+			{ "listText" : "1" },
+			{ "listText" : "2" },
+			{ "listText" : "3" },
+			{ "listText" : "4" },
+			{ "listText" : "5" }
+		]
+	},
+	
+	"pagerClass" : "",
+	"pager" : {
+		"pagerList" : [
+			{ "listText" : "Previous" },
+			{ "listText" : "Next" }
+		]
+	},
+	
+	"buttonGroupList" : [
+		{ "text" : "Left" },
+		{ "text" : "Middle" },
+		{ "text" : "Right"}
+	]
 }

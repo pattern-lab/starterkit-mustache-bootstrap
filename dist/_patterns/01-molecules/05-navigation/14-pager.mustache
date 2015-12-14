@@ -1,9 +1,10 @@
-<div class="bs-example" data-example-id="simple-pager">
+{{# pager }}
     <nav>
-      <ul class="pager">
-        <li><a href="#">Previous</a></li>
-        <li><a href="#">Next</a></li>
+      <ul class="pager {{ pagerClass }}">
+	    {{# pagerList }}
+        <li><a href="#">{{ listText }}</a></li>
+        {{/ pagerList }}
       </ul>
     </nav>
-</div>
+{{/ pager }}
 

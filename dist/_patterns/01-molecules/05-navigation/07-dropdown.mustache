@@ -1,14 +1,13 @@
-<div class="bs-docs-section">
-  <div class="bs-example" data-example-id="static-dropdown">
-    <div class="dropdown clearfix">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        Dropdown
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <li><a href="#">Action</a></li>
-        <li><a href="#">Another action</a></li>
-        <li><a href="#">Something else here</a></li>
-      </ul>
-    </div>
-  </div><!-- /example -->
+{{# buttonDropdown }}
+<div class="dropdown clearfix">
+	<button class="btn {{ buttonClass }} dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+		<span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+		{{# dropdownList }}
+    	<li><a href="#">{{ listText }}</a></li>
+		{{/ dropdownList }}
+	</ul>
+</div>
+{{/ buttonDropdown }}

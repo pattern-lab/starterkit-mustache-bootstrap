@@ -15,3 +15,6 @@ title: Button Groups
     <p>One exception are groups which only contain a single control (for instance the <a href="#btn-groups-justified">justified button groups</a> with <code>&lt;button&gt;</code> elements) or a dropdown.</p>
     <p>In addition, groups and toolbars should be given an explicit label, as most assistive technologies will otherwise not announce them, despite the presence of the correct <code>role</code> attribute. In the examples provided here, we use <code>aria-label</code>, but alternatives such as <code>aria-labelledby</code> can also be used.</p>
   </div>
+  
+    <h2 id="btn-groups-single">Basic example</h2>
+  <p>Wrap a series of buttons with <code>.btn</code> in <code>.btn-group</code>.</p>

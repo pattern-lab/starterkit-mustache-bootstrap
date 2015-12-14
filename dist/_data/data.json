@@ -1,7 +1,46 @@
 {
 	"title" : "Pattern Lab",
-	"headline" : "Lorem Ipsum Dolar Sit Amet",
-	"text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-	"url" : "#"
-	"cta" : "Call To Action"
+	"heading" : "Page Header",
+	"subheading" : "Subtext For Header",
+	"text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+	"url" : "#",
+	"cta" : "Call To Action",
+	"listItem" : "List Item",
+	"listItemNested" : "Nested List Item",
+	"term" : "Term",
+	"definition" : "This is the definition of the term.",
+	"badge" : "23",
+	"label" : "New Label",
+	"labelClass" : "label-default",
+	"progressLabelClass" : "sr-only",
+	"src" : "../../images/bootstrapthumb.jpg",
+	"alt" : "Bootstrap Thumbnail",
+	"caption" : "Caption Text",
+	"captionClass" : true,
+	"panelClass" : "panel-default",
+	"table" : {
+	  "thead" : {
+		  "th" : [
+			  { "title" : "Table Heading 1" },
+			  { "title" : "Table Heading 2" },
+			  { "title" : "Table Heading 3" },
+			  { "title" : "Table Heading 4" }
+		  ]
+	  },
+		"tbody" : {
+			"tr" : [
+				{
+					"td" : [
+						{ "text" : "row 1 cell 1" },
+						{ "text" : "row 1 cell 2" },
+						{ "text" : "row 1 cell 3" },
+						{ "text" : "row 1 cell 4" }
+					]
+				}
+			]
+		}	
+	},
+	"wellClass" : "",
+	"wellText" : "Look I am in a well",
+	"mediaImage" : "../../images/bootstrapthumb64.jpg"
 }

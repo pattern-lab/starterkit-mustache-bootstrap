@@ -42,5 +42,24 @@
 	},
 	"wellClass" : "",
 	"wellText" : "Look I am in a well",
-	"mediaImage" : "../../images/bootstrapthumb64.jpg"
+	"mediaImage" : "../../images/bootstrapthumb64.jpg",
+	"mediaEmbed" : "//www.youtube.com/embed/zpOULjyy-n8?rel=0",
+	"inputClass" : "",
+	"inputAddon" : "Addon",
+	"buttonClass" :"btn-default",
+	"breadcrumbs" : {
+		"breadList" : [
+			{ "listText" : "Link 1" },
+			{ "listText" : "Link 2" },
+			{ "listText" : "Link 3" }	
+		]
+	},
+	"buttonDropdown" : {
+		"dropdownList" : [
+			{ "listText" : "Action" },
+			{ "listText" : "Another action" },
+			{ "listText" : "Something else here" },
+			{ "listText" : "Link 4" }
+		]
+	}
 }

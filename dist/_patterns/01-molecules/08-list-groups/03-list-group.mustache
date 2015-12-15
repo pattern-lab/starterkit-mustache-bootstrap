@@ -1,13 +1,5 @@
-<div class="bs-docs-section">
-  <h2 id="list-group-basic">Basic example</h2>
-  <p>The most basic list group is simply an unordered list with list items, and the proper classes. Build upon it with the options that follow, or your own CSS as needed.</p>
-  <div class="bs-example" data-example-id="simple-list-group">
-    <ul class="list-group">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Morbi leo risus</li>
-      <li class="list-group-item">Porta ac consectetur ac</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-    </ul>
-  </div>
-</div>
+<ul class="list-group {{ listGroupClass }}">
+	{{# listGroup }}
+  	<li class="list-group-item">{{ text }}</li>
+  	{{/ listGroup }}
+</ul>

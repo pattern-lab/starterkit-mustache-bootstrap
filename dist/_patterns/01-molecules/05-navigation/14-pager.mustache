@@ -1,10 +1,8 @@
-{{# pager }}
 <nav>
-	<ul class="pager {{ pagerClass }}">
+	<ul class="pager">
     	{{# pagerList }}
-		<li><a href="#">{{ listText }}</a></li>
+		<li {{# pagerClass }}class="{{ pagerClass }}"{{/ pagerClass }}><a href="{{ url }}">{{ text }}</a></li>
 		{{/ pagerList }}
   	</ul>
 </nav>
-{{/ pager }}
 

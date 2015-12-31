@@ -1,6 +1,8 @@
 <div class="jumbotron">
     <h1>{{ heading }}</h1>
     <p>{{ text }}</p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">{{ cta }}</a></p>
+	{{# cta }}
+	<p><a class="btn btn-primary btn-lg" href="{{ url }}" role="button">{{ cta }}</a></p>
+	{{/ cta }}
 </div>
 

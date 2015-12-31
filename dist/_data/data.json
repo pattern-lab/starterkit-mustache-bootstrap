@@ -5,6 +5,7 @@
 	"text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 	"url" : "#",
 	"cta" : "Call To Action",
+	"ariaLabel" : "Aria label",
 	"listItem" : "List Item",
 	"listItemNested" : "Nested List Item",
 	"term" : "Term",
@@ -16,8 +17,9 @@
 	"src" : "../../images/bootstrapthumb.jpg",
 	"alt" : "Bootstrap Thumbnail",
 	"caption" : "Caption Text",
-	"captionClass" : true,
 	"panelClass" : "panel-default",
+	"panelHeading" : false,
+	"panelFooter" : false,
 	"table" : {
 	  "thead" : {
 		  "th" : [
@@ -41,62 +43,109 @@
 		}	
 	},
 	"wellClass" : "",
-	"wellText" : "Look I am in a well",
+	"mediaClass" : "",
+	"mediaLeft" : true,
+	"mediaRight" : false,
 	"mediaImage" : "../../images/bootstrapthumb64.jpg",
+	"embedClass" : "embed-responsive-16by9",
 	"mediaEmbed" : "//www.youtube.com/embed/zpOULjyy-n8?rel=0",
 	"inputClass" : "",
-	"inputAddon" : "Addon",
+	"inputAddonBefore" : "Addon",
+	"inputAddonAfter" : false,
 	"buttonClass" :"btn-default",
-	"breadcrumbs" : {
-		"breadList" : [
-			{ "listText" : "Link 1" },
-			{ "listText" : "Link 2" },
-			{ "listText" : "Link 3" }	
-		]
-	},
-	"buttonDropdown" : {
-		"dropdownList" : [
-			{ "listText" : "Action" },
-			{ "listText" : "Another action" },
-			{ "listText" : "Something else here" },
-			{ "listText" : "Link 4" }
-		]
-	},
+	"breadcrumbs" : [
+		{ 
+			"url" : "#", 
+			"text" : "Link 1"
+			
+		},
+		{ 
+			"url" : "#",
+			"text" : "Link 2"
+		},
+		{ 
+			"url" : "#", 
+			"text" : "Link 3" 
+		}	
+	],
+	"caret" : "caret",
+	"dropdownList" : [
+		{ 
+			"url" : "#",
+			"text" : "Action"	 
+		},
+		{ 
+			"url" : "#",
+			"text" : "Another action" 
+		},
+		{ 
+			"url" : "#",
+			"text" : "Something else here"
+		},
+		{ 
+			"url" : "#",
+			"text" : "Link 4" 
+		}
+	],
 	"navClass" : "",
-	"nav" : {
-		"navList" : [
-			{ "listText" : "Home" },
-			{ "listText" : "Profile" },
-			{ "listText" : "Link 3" }
-		]
-	},
+	"navList" : [
+		{ 
+			"url" : "#",
+			"text" : "Home"
+		},
+		{ 
+			"url" : "#",
+			"text" : "Profile" 
+		},
+		{ 
+			"url" : "#",
+			"text" : "Messages" 
+		}
+	],
 	"paginationClass" : "",
-	"pagination" : {
-		"paginationList" : [
-			{ "listText" : "1" },
-			{ "listText" : "2" },
-			{ "listText" : "3" },
-			{ "listText" : "4" },
-			{ "listText" : "5" }
-		]
-	},
-	
+	"paginationList" : [
+		{ 
+			"url" : "#",
+			"text" : "1" 
+		},
+		{ 
+			"url" : "#",
+			"text" : "2" 
+		},
+		{ 
+			"url" : "#",
+			"text" : "3" 
+		},
+		{ 
+			"url" : "#",
+			"text" : "4" 
+		},
+		{ 
+			"url" : "#",
+			"text" : "5" 
+		}
+	],
 	"pagerClass" : "",
-	"pager" : {
-		"pagerList" : [
-			{ "listText" : "Previous" },
-			{ "listText" : "Next" }
-		]
-	},
-	
+	"pagerList" : [
+		{ 
+			"url" : "#",
+			"text" : "Previous" 
+		},
+		{ 
+			"url" : "#",
+			"text" : "Next" 
+		}
+	],
+	"buttonGroupClass" : "",
 	"buttonGroupList" : [
 		{ "text" : "Left" },
 		{ "text" : "Middle" },
 		{ "text" : "Right"}
 	],
 	
-	"alertClass" : "",
+	"alertClass" : "alert-success",
 	"alertText" : "I am alerting you about something",
+	"dismissableAlert" : false,
 	"listGroupClass" : "",
 	"listGroup" : [
 		{ "text" : "Cras justo odio" },

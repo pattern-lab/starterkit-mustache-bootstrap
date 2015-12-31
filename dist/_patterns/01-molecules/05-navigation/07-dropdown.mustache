@@ -1,11 +1,9 @@
-{{# buttonDropdown }}
 <button class="btn {{ buttonClass }} dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 Dropdown
-	<span class="caret"></span>
+	{{# caret }}<span class="{{ caret }}"></span>{{/ caret }}
 </button>
 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 	{{# dropdownList }}
-	<li><a href="#">{{ listText }}</a></li>
+	<li {{# separator }}role="separator"{{/ separator }} {{# listItemClass }} class="{{ listItemClass }}"{{/ listItemClass }}><a href="#">{{ text }}</a></li>
 	{{/ dropdownList }}
 </ul>
-{{/ buttonDropdown }}

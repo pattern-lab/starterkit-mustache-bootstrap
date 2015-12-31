@@ -47,7 +47,7 @@
         </a>
     </div>
 </div>
-
+<!-- Media Alignment -->
 <p>The classes <code>.pull-left</code> and <code>.pull-right</code> also exist and were previously used as part of the media component, but are deprecated for that use as of v3.3.0. They are approximately equivalent to <code>.media-left</code> and <code>.media-right</code>, except that <code>.media-right</code> should be placed after the <code>.media-body</code> in the html.</p>
 <h2 id="media-alignment">Media alignment</h2>
 <p>The images or other media can be aligned top, middle, or bottom. The default is top aligned.</p>
@@ -88,58 +88,4 @@
 			<p>{{ text }}</p>
       	</div>
     </div>
-</div>
-
-<h2 id="media-list">Media list</h2>
-<p>With a bit of extra markup, you can use media inside list (useful for comment threads or articles lists).</p>
-<div class="bs-example" data-example-id="media-list">
-    <ul class="media-list">
-    	<li class="media">
-        <div class="media-left">
-        	<a href="#">
-            	<img class="media-object" src="{{ mediaImage }}" alt="{{ alt }}">
-          	</a>
-        </div>
-        <div class="media-body">
-        	<h4 class="media-heading">{{ heading }}</h4>
-			<p>{{ text }}</p>
-			<!-- Nested media object -->
-			<div class="media">
-            	<div class="media-left">
-					<a href="#">
-						<img class="media-object" src="{{ mediaImage }}" alt="{{ alt }}">
-              		</a>
-            	</div>
-				<div class="media-body">
-					<h4 class="media-heading">Nested media heading</h4>
-					{{ text }}
-					<!-- Nested media object -->
-					<div class="media">
-						<div class="media-left">
-							<a href="#">
-								<img class="media-object" src="{{ mediaImage }}" alt="{{ alt }}">
-                  			</a>
-                		</div>
-						<div class="media-body">
-						<h4 class="media-heading">Nested media heading</h4>
-						{{ text }}
-                		</div>
-              		</div>
-            	</div>
-          	</div>
-		  	<!-- Nested media object -->
-		  	<div class="media">
-            	<div class="media-left">
-					<a href="#">
-						<img class="media-object" src="{{ mediaImage }}" alt="{{ alt }}">
-              		</a>
-            	</div>
-				<div class="media-body">
-					<h4 class="media-heading">Nested media heading</h4>
-					{{ text }}
-            	</div>
-          	</div>
-        </div>
-		</li>
-    </ul>
 </div>

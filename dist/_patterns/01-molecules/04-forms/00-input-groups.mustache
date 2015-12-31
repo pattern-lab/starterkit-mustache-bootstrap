@@ -1,6 +1,11 @@
-<div class="input-group {{inputClass}}">
-	<span class="input-group-addon" id="basic-addon1">{{ inputAddon }}</span>
+<div class="input-group {{ inputClass }}">
+	{{# inputAddonBefore }}
+	<span class="input-group-addon">{{ inputAddonBefore }}</span>
+	{{/ inputAddonBefore }}
 	{{> atoms-input }}
+	{{# inputAddonAfter }}
+	<span class="input-group-addon">{{ inputAddonAfter }}</span>
+	{{/ inputAddonAfter }}
 </div>
 
 

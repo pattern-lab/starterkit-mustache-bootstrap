@@ -1,5 +1,5 @@
-<div class="btn-group" role="group" aria-label="Basic example">
+<div class="btn-group {{ buttonGroupClass }}" role="group" aria-label="{{ ariaLabel }}">
 	{{# buttonGroupList }}
-	<button type="button" class="btn {{ buttonClass }}">{{ text }}</button>
+	{{> atoms-button }}
 	{{/ buttonGroupList }}
 </div>

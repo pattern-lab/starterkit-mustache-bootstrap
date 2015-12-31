@@ -1,14 +1,12 @@
-{{# buttonDropdown }}
 <div class="btn-group dropup">
     {{> atoms-button }}
     <button type="button" class="btn {{ buttonClass }} dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    	<span class="caret"></span>
+    	{{# caret }}<span class="{{ caret }}"></span>{{/ caret }}
 		<span class="sr-only">{{ cta }}</span>
 	</button>
 	<ul class="dropdown-menu">
 		{{# dropdownList }}
-		<li><a href="#">{{ listText }}</a></li>
+		<li {{# separator }}role="separator"{{/ separator }} {{# listItemClass }} class="{{ listItemClass }}"{{/ listItemClass }}><a href="#">{{ text }}</a></li>
 		{{/ dropdownList }}
   	</ul>
 </div><!-- /btn-group -->
-{{/ buttonDropdown }}

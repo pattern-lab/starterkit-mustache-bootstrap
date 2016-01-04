@@ -1,0 +1,24 @@
+<div class="media">
+	{{# mediaLeft }}
+    <div class="media-left {{ mediaClass }}">
+        <a href="{{ url }}">
+        	<img class="media-object" src="{{ mediaImage }}" alt="{{ alt }}">
+        </a>
+    </div>
+    {{/ mediaLeft }}
+	<div class="media-body">
+	  	<h4 class="media-heading">{{ heading }}</h4>
+        {{ text }}
+        {{# nestedMedia }}
+        {{> molecules-media }}
+        {{/ nestedMedia }}
+	</div>
+	{{# mediaRight }}
+    <div class="media-right {{ mediaClass }}">
+        <a href="{{ url }}">
+        	<img class="media-object" src="{{ mediaImage }}" alt="{{ alt }}">
+        </a>
+    </div>
+    {{/ mediaRight }}
+</div>
+

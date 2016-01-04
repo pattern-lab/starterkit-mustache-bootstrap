@@ -1,0 +1,15 @@
+<ul class="nav navbar-nav {{ navbarNavClass }}">
+	{{# navbarNav }}
+    <li {{# hasDropdown }}class="dropdown"{{/ hasDropdown }}{{# activeClass }}class="active" {{/ activeClass }}>
+   		<a href="{{ url }}" {{# hasDropdown }}class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"{{/ hasDropdown }}>
+	   		{{ text }}{{# hasDropdown }}<span class="caret"></span>{{/ hasDropdown }}</a>
+	   	{{# hasDropdown }}
+	  	<ul class="dropdown-menu">
+		  	{{# dropdownMenu }}
+	  		<li {{# separator }}role="separator" class="divider"{{/ separator }}><a href="{{ url }}">{{ text }}</a></li>
+	  		{{/ dropdownMenu }}
+    	</ul>
+    	{{/ hasDropdown }}
+    </li>
+    {{/ navbarNav }}
+</ul>

@@ -3,6 +3,7 @@
 	"heading" : "Page Header",
 	"subheading" : "Subtext For Header",
 	"text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+	"placeholder" : "Placeholder Text",
 	"url" : "#",
 	"cta" : "Call To Action",
 	"ariaLabel" : "Aria label",
@@ -13,7 +14,13 @@
 	"badge" : "23",
 	"label" : "New Label",
 	"labelClass" : "label-default",
-	"progressLabelClass" : "sr-only",
+	"progressBarClass" : "",
+	"progressCompleteText" : "60% Complete",
+	"progressMinWidth" : false,
+	"removeProgressText" : true,
+	"ariaMin" : 0,
+	"ariaMax" : 100,
+	"ariaNow" : 60,
 	"src" : "../../images/bootstrapthumb.jpg",
 	"alt" : "Bootstrap Thumbnail",
 	"caption" : "Caption Text",
@@ -69,6 +76,7 @@
 		}	
 	],
 	"caret" : "caret",
+	"dropdownClass" : "dropdown",
 	"dropdownList" : [
 		{ 
 			"url" : "#",
@@ -154,5 +162,86 @@
 		{ "text" : "Porta ac consectetur ac" },
 		{ "text" : "Vestibulum at eros" }
 	],
-	"navbarClass" : "navbar-default"
+	"navbarBrandText" : "Pattern Lab",
+	"navbarNavClass" : "",
+	"navbarNavFirst" : true,
+	"navbarNavLast" : {
+		"navbarNavClass" : "navbar-right"
+	},
+	"navbarNav" : [
+		{
+			"url" : "#",
+			"text" : "Link"
+		},
+		{
+			"url" : "#",
+			"text" : "Link"
+		},
+		{
+			"url" : "#",
+			"text" : "Dropdown",
+			"hasDropdown" : true,
+			"dropdownMenu" : [
+				{ 
+					"url" : "#",
+					"text" : "Action"	 
+				},
+				{ 
+					"url" : "#",
+					"text" : "Another action" 
+				},
+				{ 
+					"url" : "#",
+					"text" : "Something else here"
+				},
+				{ 
+					"separator" : "true"
+				},
+				{ 
+					"url" : "#",
+					"text" : "Link 4" 
+				}
+				
+			]
+		}
+	],
+	"navbarFormClass" : "navbar-left",
+	"navbarClass" : "navbar-default",
+	"mediaList" : [
+		{
+			"mediaLeft" : true,
+			"mediaRight" : false,
+			"nestedMedia" : [
+				{
+					"mediaLeft" : false,
+					"mediaRight" : true
+				},
+				{
+					"mediaLeft" : true,
+					"mediaRight" : false
+				}
+			]
+			
+		},
+		{
+			"heading" : "Item 2",
+			"text" : "This is the second item that is not nested.",
+			"mediaLeft" : true,
+			"mediaRight" : false,
+			"nestedMedia" : [
+				{
+					"heading" : "Nested Item 1",
+					"text" : "This is the first nested item of the list.",
+					"mediaLeft" : true,
+					"mediaRight" : false
+				},
+				{
+					"heading" : "Nested Item 2",
+					"text" : "This is the second nested item of the list",
+					"mediaLeft" : false,
+					"mediaRight" : true
+				}
+			]	
+		}
+	]
 }

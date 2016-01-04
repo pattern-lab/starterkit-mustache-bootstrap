@@ -1,0 +1,16 @@
+<div class="input-group">
+    {{> atoms-input }}
+    <div class="input-group-btn">
+	      {{> atoms-button }}
+	    <button type="button" class="btn {{ buttonClass }} dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    	{{# caret }}<span class="{{ caret }}"></span>{{/ caret }}
+			<span class="sr-only">{{ cta }}</span>
+	    </button>
+	    <ul class="dropdown-menu">
+			{{# dropdownList }}
+	    	<li {{# separator }}role="separator"{{/ separator }} {{# listItemClass }} class="{{ listItemClass }}"{{/ listItemClass }}><a href="{{ url }}">{{ text }}</a></li>
+			{{/ dropdownList }}
+	    </ul>
+    </div>
+</div><!-- /.input-group -->
+

@@ -1,0 +1,22 @@
+{
+  "name": "starterkit-mustache-bootstrap",
+  "version": "0.1.0",
+  "description": "A Bootstrap starter kit for Pattern Lab",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pattern-lab/starterkit-mustache-bootstrap.git"
+  },
+  "keywords": [
+    "Pattern Lab",
+    "Atomic Design",
+    "Mustache",
+    "Bootstrap",
+    "Starterkit"
+  ],
+  "author": "Ian Frost",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pattern-lab/starterkit-mustache-bootstrap/issues"
+  },
+  "homepage": "https://github.com/pattern-lab/starterkit-mustache-bootstrap#readme"
+}

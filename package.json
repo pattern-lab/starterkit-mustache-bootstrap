@@ -1,7 +1,7 @@
 {
   "name": "starterkit-mustache-bootstrap",
-  "version": "0.1.1",
-  "description": "A Bootstrap starter kit for Pattern Lab",
+  "version": "0.1.2",
+  "description": "A Bootstrap v4 starter kit for Pattern Lab",
   "main": "README.md",
   "repository": {
     "type": "git",
